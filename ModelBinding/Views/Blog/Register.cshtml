@@ -1,0 +1,31 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+</head>
+<body>
+    <style>
+        .My-form{
+            display:block;
+        }
+    </style>
+    <h1>Register Form</h1>
+    <form method="post" action="Register">
+        <input type="text" id="Name" name="Name" placeholder="Name" class="My-form" />
+        <input type="text" id="Family" name="Family" placeholder="Family" class="My-form" />
+        <input type="number" id="Age" name="Age" placeholder="Age" class="My-form" />
+        <label for="Gender">Men</label>
+        <input type="radio" value="M" id="Gender" name="Gender" />
+        <label for="Gender">Woman</label>
+        <input type="radio" value="F" id="Gender" name="Gender" />
+        <input type="submit" value="Register" class="My-form" />
+    </form>
+</body>
+</html>
